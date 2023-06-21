@@ -13,6 +13,7 @@ body{
 }
 .nav-menu{
     display: flex;
+    align-items: center;
     width: 100%;
     /* height: 0px; */
     /* background-color: rgb(46, 45, 45); */
@@ -26,6 +27,7 @@ body{
     position: fixed;
     top: 0px;
     z-index: 100;
+
 }
 .nav-group{
     display: flex;
@@ -208,6 +210,8 @@ body{
     /* height: 100px; */
     background-color: var(--primarycolor);
     color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .top-tier{
     display: flex;
@@ -223,4 +227,8 @@ body{
 .row-divs{
     display: flex;
     justify-content: space-between;
+}
+.footer-caps{
+    font-weight: 900;
+    font-size: larger;
 }
